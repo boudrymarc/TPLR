@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="JQuery/jquery-3.1.1.js"></script>
+    <script src="JS/mesFonctions.js"></script>
+    <script type="text/javascript">
+        $
+        (
+            // Au chargement de la page
+            function()
+            {
+                // On s'abonne aux évenements clic sur chaque bouton
+                // Lors d'un clic sur le bouton qui possède l'id btnExo1
+                // On éxecute la fonction JS EXO1
+                $('#btnExo1').click(Exo1);
+                $('#btnExo2').click(Exo2);
+                //$('#lstActivites').change(Exo3);
+            }
+        );
+    </script>
+</head>
+<body>
+    <h1>Devoir numéro 1 révison</h1>
+    <input type="button" value="Exo1" id="btnExo1">
+    <br><br>
+    <input type="button" value="Exo2" id="btnExo2">
+    <br>
+    <br>
+    <div id="divCateg"></div>
+    <br>
+    <br>
+    <div id="divServices"></div>
+    <br>
+    <br>
+    <div id="divUtilisateur"></div>
+    <br>
+    <br>
+    <div id="divDeals"></div>
+</body>
+</html>
